@@ -1,0 +1,20 @@
+3️⃣ Core Difference (Quick Comparison)
+
+Feature	            NearestNeighbors	               KNN
+Learning type	      Unsupervised	                 Supervised
+Needs labels (y)	    ❌ No	                       ✅ Yes
+Predicts output	        ❌ No	                       ✅ Yes
+Returns	            Neighbors & distances	        Class / value
+Use case	          Similarity search	         Classification / Regression
+
+
+5️⃣ When to Use What?
+
+Use NearestNeighbors when:
+1. You only care about similarity
+2. Building recommendation engines
+3. No labels available
+
+Use KNN when:
+1. You want predictions
+2. You have labeled data
